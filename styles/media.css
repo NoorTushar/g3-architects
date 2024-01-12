@@ -1,2 +1,63 @@
 @media (max-width: 575.98px) {
+  .container {
+    width: 90%;
+  }
+
+  .common-button {
+    font-size: 0.8rem;
+  }
+
+  header nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+  header .common-heading {
+    font-size: 1.7rem;
+  }
+  .menu-item-container > ul {
+    gap: 30px;
+  }
+
+  .banner-texts {
+    margin-bottom: 30.5px; /* figma: 70px */
+    margin-top: 30.5px;
+  }
+  .banner-heading {
+    font-size: 2rem;
+  }
+  .banner .common-description {
+    margin: 18px 0 /* figma: 32px , 24*/;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .container {
+    width: 80%;
+  }
+
+  .common-button {
+    font-size: 0.8rem;
+  }
+
+  header nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+  header .common-heading {
+    font-size: 1.7rem;
+  }
+  .menu-item-container > ul {
+    gap: 30px;
+  }
+
+  .banner-texts {
+    margin-bottom: 30.5px; /* figma: 70px */
+    margin-top: 30.5px;
+  }
+  .banner-heading {
+    font-size: 2rem;
+  }
+  .banner .common-description {
+    margin: 18px 0 /* figma: 32px , 24*/;
+  }
 }
