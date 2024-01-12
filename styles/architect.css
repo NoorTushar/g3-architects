@@ -1,0 +1,45 @@
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+  padding: 37.5px 0; /* figma: 50px */
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-item-container > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.menu-item-container ul li a {
+  color: var(--Dark-02);
+  font-size: 0.84rem; /* figma: 16px */
+  font-weight: 500;
+  line-height: 19.5px; /* figma: 26px */
+}
+.banner-texts {
+  text-align: center;
+  max-width: 651px; /* figma: 868px */
+  margin: 0 auto;
+  margin-bottom: 52.5px; /* figma: 70px */
+  margin-top: 76.5px; /* figma: 102px */
+}
+.banner-heading {
+  color: var(--Dark-01);
+  font-size: 3rem; /* figma: 64px , 48*/
+  font-weight: 700;
+}
+.banner .common-description {
+  margin: 24px 0 /* figma: 32px , 24*/;
+}
+
+.banner-image {
+}
+
+.banner-image img {
+  width: 100%;
+  max-width: 1080px;
+}
