@@ -1,0 +1,49 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap");
+
+/* font-family: 'Work Sans', sans-serif; */
+:root {
+  --Dark-01: #131313;
+  --Dark-03: #727272;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.common-heading {
+  color: var(--Dark-01);
+  font-size: 33.75px; /*figma: 45px*/
+  font-weight: 700;
+}
+.common-description {
+  color: var(--Dark-03);
+  font-size: 12px; /* figma: 16px */
+  line-height: 19.5px; /* figma: 26px */
+}
