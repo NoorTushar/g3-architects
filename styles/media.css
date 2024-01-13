@@ -2,7 +2,10 @@
   .container {
     width: 90%;
   }
-
+  .common-heading {
+    font-size: 1.9rem; /*figma: 45px*/
+    line-height: 40px;
+  }
   .common-button {
     font-size: 0.8rem;
   }
@@ -27,6 +30,19 @@
   }
   .banner .common-description {
     margin: 18px 0 /* figma: 32px , 24*/;
+  }
+
+  .teams .container {
+    flex-direction: column-reverse;
+    padding: 50px 10px;
+  }
+  .teams-details {
+    width: 100%;
+    text-align: center;
+  }
+  .team-image-container {
+    width: 100%;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -34,7 +50,10 @@
   .container {
     width: 80%;
   }
-
+  .common-heading {
+    font-size: 1.9rem; /*figma: 45px*/
+    line-height: 40px;
+  }
   .common-button {
     font-size: 0.8rem;
   }
@@ -59,5 +78,18 @@
   }
   .banner .common-description {
     margin: 18px 0 /* figma: 32px , 24*/;
+  }
+  .teams .container {
+    flex-direction: column-reverse;
+    padding: 50px 10px;
+  }
+  .teams-details {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  .team-image-container {
+    width: 100%;
+    /* grid-template-columns: 1fr; */
   }
 }
