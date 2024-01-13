@@ -53,7 +53,8 @@ li {
 .common-description {
   color: var(--Dark-03);
   font-size: 12px; /* figma: 16px */
-  line-height: 19.5px; /* figma: 26px */
+  line-height: 19.5px;
+  margin: 19.5px 0px; /* figma: 26px */
 }
 
 .common-button {
